@@ -1,12 +1,12 @@
 package com.openclassrooms.cardgame.model;
 
-public class enum Suit{
+public enum Suit{
     DIAMONDS(1), HEARTS(2), SPADES(3), CLUBS(4);
 
     int suit;
 
-    Private Suit(int value) {
-        suite = value;
+    private Suit(int value) {
+        suit = value;
     }
 
     public int value() {
